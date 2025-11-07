@@ -4,9 +4,7 @@ import cv2
 from ultralytics import YOLO
 
 
-custom_model = YOLO(
-    r"C:\Users\rolan\Downloads\Yachay\7_Septimo\IAYACHAY\Lab_7\runs\detect\custom_yolo_model\weights\best.pt"
-)
+custom_model = YOLO('/home/nvidia/IA/Carlos/YOLO_D/LAB7/lab7/runs/detect/custom_yolo_model/weights/best.pt')
 
 
 cap = cv2.VideoCapture(0)
